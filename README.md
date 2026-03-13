@@ -18,6 +18,7 @@ Username: admin
 Password: pass  
 
 <img width="574" height="568" alt="Login Page" src="https://github.com/user-attachments/assets/681eb13d-e438-4cca-89d7-abeb78ce83f9" />
+https://chatgpt.com/backend-api/estuary/content?id=file_00000000ed14720bb0b6ee8b34e7322d&ts=492620&p=fs&cid=1&sig=29e822c71702dd0e336a597d1c18a8bf29b8b6d2e77188ebb1199321e83d91d8&v=0
 
 
 
