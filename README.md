@@ -205,33 +205,10 @@ This screenshot shows all Azure resources created for this project.
 
 This screenshot shows the `users` and `articles` tables populated with data.
 
-![SQL Tables](example_images/sql-storage-solution.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cd81fb7e-30de-406c-b448-4e77970883b8" />
 
 ---
 
-### Azure Blob Storage
-
-This screenshot shows the storage endpoint used for storing article images.
-
-![Blob Storage](example_images/blob-solution.png)
-
----
-
-### Microsoft Authentication Redirect URIs
-
-This screenshot shows the redirect URIs configured for Azure Active Directory authentication.
-
-![Redirect URIs](example_images/uri-redirects-solution.png)
-
----
-
-### Application Logs
-
-This screenshot shows logging from the application, including both valid and invalid login attempts.
-
-![Logs](example_images/log-solution.png)
-
----
 
 ## Technologies Used
 
