@@ -21,7 +21,7 @@ Live URL:
 https://cms-shashank-f9edekbrdpbud9hc.centralus-01.azurewebsites.net
 
 Login Credentials:
-
+<img width="574" height="568" alt="image" src="https://github.com/user-attachments/assets/681eb13d-e438-4cca-89d7-abeb78ce83f9" />
 Username: admin  
 Password: pass
 
@@ -46,6 +46,7 @@ The following resources were created in Azure to deploy the application:
 The application was deployed using **Azure App Service**.
 
 Steps used for deployment:
+<img width="1908" height="750" alt="image" src="https://github.com/user-attachments/assets/557d2045-b131-4392-ae7c-69fb6c34cf26" />
 
 1. Created a Resource Group in Azure.
 2. Created an Azure SQL Server and SQL Database.
