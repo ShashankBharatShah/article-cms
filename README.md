@@ -76,7 +76,7 @@ Whenever changes are pushed to the GitHub repository:
 
 The following screenshot shows the application successfully running on Azure after creating a new article.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eec43177-6a63-48a6-901b-05ca71406961" />
+![CMS Running](example_images/article-cms-solution.png)
 
 ---
 
@@ -84,7 +84,7 @@ The following screenshot shows the application successfully running on Azure aft
 
 This screenshot shows all Azure resources created for this project.
 
-![Azure Resources](example_images/azure-portal-resource-group.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/226bd3ae-ffe2-4515-8d75-b4bb0d530dc0" />
 
 ---
 
