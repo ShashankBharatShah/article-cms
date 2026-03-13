@@ -96,29 +96,7 @@ This screenshot shows the `users` and `articles` tables populated with data.
 
 ---
 
-### Azure Blob Storage
 
-This screenshot shows the storage endpoint used for storing article images.
-
-![Blob Storage](example_images/blob-solution.png)
-
----
-
-### Microsoft Authentication Redirect URIs
-
-This screenshot shows the redirect URIs configured for Azure Active Directory authentication.
-
-![Redirect URIs](example_images/uri-redirects-solution.png)
-
----
-
-### Application Logs
-
-This screenshot shows logging from the application, including both valid and invalid login attempts.
-
-![Logs](example_images/log-solution.png)
-
----
 
 ## Technologies Used
 
