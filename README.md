@@ -21,7 +21,7 @@ Password: pass
 
 ### Article CMS Home Page
 
-<img width="1200" alt="Article CMS Dashboard" src="" />
+<img width="1200" alt="Article CMS Dashboard" src="371922ab-78ad-4ca2-a5a3-93d4ed9251f6 (1)" />
 
 ---
 
