@@ -205,7 +205,7 @@ This screenshot shows all Azure resources created for this project.
 
 This screenshot shows the `users` and `articles` tables populated with data.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cd81fb7e-30de-406c-b448-4e77970883b8" />
+<img width="1265" height="737" alt="image" src="https://github.com/user-attachments/assets/fb201756-b592-4bfa-af37-19a0db0e155b" />
 
 ---
 
