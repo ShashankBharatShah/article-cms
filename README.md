@@ -92,7 +92,7 @@ This screenshot shows all Azure resources created for this project.
 
 This screenshot shows the `users` and `articles` tables populated with data.
 
-![SQL Tables](example_images/sql-storage-solution.png)
+<img width="1265" height="737" alt="image" src="https://github.com/user-attachments/assets/ef46508b-76c0-49e3-918d-7bf276686d7d" />
 
 ---
 
@@ -158,34 +158,6 @@ Whenever changes are pushed to the GitHub repository:
 1. GitHub Actions builds the Flask project
 2. Dependencies are installed using `requirements.txt`
 3. The application is automatically deployed to Azure App Service
-
----
-
-## Screenshots
-
-### Running Article CMS Application
-
-The following screenshot shows the application successfully running on Azure after creating a new article.
-
-![CMS Running](example_images/article-cms-solution.png)
-
----
-
-### Azure Resource Group
-
-This screenshot shows all Azure resources created for this project.
-
-![Azure Resources](example_images/azure-portal-resource-group.png)
-
----
-
-### SQL Database Tables
-
-This screenshot shows the `users` and `articles` tables populated with data.
-
-<img width="1265" height="737" alt="image" src="https://github.com/user-attachments/assets/fb201756-b592-4bfa-af37-19a0db0e155b" />
-
----
 
 
 ## Technologies Used
