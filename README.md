@@ -76,7 +76,7 @@ Whenever changes are pushed to the GitHub repository:
 
 The following screenshot shows the application successfully running on Azure after creating a new article.
 
-![CMS Running](example_images/article-cms-solution.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eec43177-6a63-48a6-901b-05ca71406961" />
 
 ---
 
