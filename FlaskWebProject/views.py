@@ -16,7 +16,7 @@ import logging
 
 # Logging setup
 
-logger = logging.getLogger(**name**)
+logger = logging.getLogger(__name__)
 
 imageSourceUrl = 'https://' + app.config['BLOB_ACCOUNT'] + '.blob.core.windows.net/' + app.config['BLOB_CONTAINER'] + '/'
 
@@ -70,7 +70,7 @@ return render_template(
 )
 ```
 
-@app.route('/login', methods=['GET', 'POST'])
+@app.route('/post/<int:id>', methods=['GET', 'POST'])
 def login():
 
 ```
