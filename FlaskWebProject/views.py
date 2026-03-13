@@ -47,6 +47,7 @@ def login():
 
     session["state"] = str(uuid.uuid4())
     auth_url = ""
+
     return render_template(
         'login.html',
         title='Sign In',
