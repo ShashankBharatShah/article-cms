@@ -5,7 +5,6 @@
 The Flask Article CMS application has been deployed on **Microsoft Azure App Service**.
 
 **Live URL**
-
 https://cms-shashank-f9edekbrdpbud9hc.centralus-01.azurewebsites.net
 
 ---
@@ -14,26 +13,27 @@ https://cms-shashank-f9edekbrdpbud9hc.centralus-01.azurewebsites.net
 
 Use the following credentials to access the CMS dashboard.
 
-Username: admin  
-Password: pass  
+**Username:** admin
+**Password:** pass
 
 <img width="574" height="568" alt="Login Page" src="https://github.com/user-attachments/assets/681eb13d-e438-4cca-89d7-abeb78ce83f9" />
 
+---
 
 ## Project Overview
 
-This project demonstrates how to deploy a **Flask-based Content Management System (CMS)** on **Microsoft Azure**.
+This project demonstrates how to deploy a **Flask-based Content Management System (CMS)** on **Microsoft Azure Cloud**.
 
 The CMS allows users to:
 
-- Log in to the system
-- Create new articles
-- Edit existing articles
-- Upload images for articles
-- Store article data in **Azure SQL Database**
-- Store images in **Azure Blob Storage**
+* Log in to the system
+* Create new articles
+* Edit existing articles
+* Upload images for articles
+* Store article data in **Azure SQL Database**
+* Store images in **Azure Blob Storage**
 
-The application integrates multiple Azure cloud services along with Flask to build a complete cloud-hosted web application.
+The application integrates multiple **Azure cloud services** with a **Flask web application** to demonstrate a real-world cloud deployment architecture.
 
 ---
 
@@ -41,34 +41,32 @@ The application integrates multiple Azure cloud services along with Flask to bui
 
 The following Azure resources were created for this project:
 
-- **Azure Resource Group** – organizes all project resources
-- **Azure App Service** – hosts the Flask web application
-- **Azure SQL Server** – manages the SQL database server
-- **Azure SQL Database** – stores user and article data
-- **Azure Storage Account** – provides blob storage service
-- **Azure Blob Storage Container** – stores uploaded images
-- **Azure Active Directory App Registration** – enables Microsoft authentication
-
-These services work together to host and manage the application in the cloud.
+* **Azure Resource Group** – organizes all project resources
+* **Azure App Service** – hosts the Flask web application
+* **Azure SQL Server** – database server
+* **Azure SQL Database** – stores article and user data
+* **Azure Storage Account** – provides blob storage service
+* **Azure Blob Storage Container** – stores uploaded article images
+* **Azure Active Directory App Registration** – enables Microsoft authentication
 
 ---
 
 ## Deployment Method
 
-The application was deployed using **Azure App Service** with **GitHub integration for continuous deployment**.
+The application was deployed using **Azure App Service with GitHub integration for continuous deployment**.
 
 <img width="1908" height="750" alt="Deployment Process" src="https://github.com/user-attachments/assets/557d2045-b131-4392-ae7c-69fb6c34cf26" />
 
-Deployment steps performed:
+### Deployment Steps
 
 1. Created a **Resource Group** in Azure.
-2. Created an **Azure SQL Server** and **SQL Database**.
+2. Created an **Azure SQL Server** and **Azure SQL Database**.
 3. Executed SQL scripts to populate the `users` and `articles` tables.
 4. Created a **Storage Account** and **Blob Storage Container** to store article images.
 5. Configured the Flask application to connect to **Azure SQL Database**.
 6. Configured **Azure Blob Storage** for storing uploaded images.
 7. Implemented **Microsoft authentication using the MSAL library**.
-8. Deployed the application to **Azure App Service** using GitHub deployment.
+8. Deployed the application to **Azure App Service using GitHub deployment**.
 
 ---
 
@@ -81,8 +79,6 @@ Whenever changes are pushed to the GitHub repository:
 1. GitHub builds the Flask application
 2. Dependencies are installed using `requirements.txt`
 3. The application is automatically deployed to Azure App Service
-
-This allows automatic updates whenever the repository code changes.
 
 ---
 
@@ -114,17 +110,28 @@ This screenshot shows the `users` and `articles` tables populated with data in A
 
 ## Technologies Used
 
-The project was built using the following technologies:
+* Python
+* Flask
+* Flask-Login
+* Flask-SQLAlchemy
+* Azure App Service
+* Azure SQL Database
+* Azure Blob Storage
+* Microsoft Authentication Library (MSAL)
+* GitHub Actions (CI/CD)
 
-- Python
-- Flask
-- Flask-Login
-- Flask-SQLAlchemy
-- Azure App Service
-- Azure SQL Database
-- Azure Blob Storage
-- Microsoft Authentication Library (MSAL)
-- GitHub Actions (CI/CD)
+---
+
+## Custom Implementations
+
+The following features were implemented as part of completing the project:
+
+* Microsoft Authentication using the **MSAL library**
+* Login logging for successful and failed login attempts
+* Azure SQL Database integration for storing users and articles
+* Azure Blob Storage integration for article image uploads
+* Deployment to Azure App Service
+* Continuous Deployment using GitHub Actions
 
 ---
 
@@ -134,21 +141,11 @@ This project demonstrates how a **Flask web application can be deployed and inte
 
 The system integrates:
 
-- Web application development with Flask
-- Cloud hosting with Azure App Service
-- Database storage using Azure SQL Database
-- Image storage using Azure Blob Storage
-- Authentication using Microsoft Identity
-- Automated deployment using GitHub Actions
+* Flask web application development
+* Azure App Service cloud hosting
+* Azure SQL Database storage
+* Azure Blob Storage for images
+* Microsoft Identity authentication
+* GitHub Actions automated deployment
 
-This showcases a complete **cloud-based web application architecture** using Azure services.
-## Custom Implementations
-
-The following features were implemented as part of completing the project:
-
-• Microsoft Authentication using the MSAL library
-• Login logging for successful and failed login attempts
-• Azure SQL Database integration for storing users and articles
-• Azure Blob Storage integration for article image uploads
-• Deployment to Azure App Service
-• Continuous Deployment using GitHub Actions
+Together these components form a **complete cloud-based CMS application architecture using Microsoft Azure services**.
