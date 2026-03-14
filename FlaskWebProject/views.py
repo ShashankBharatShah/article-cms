@@ -14,6 +14,7 @@ import msal
 import uuid
 import logging
 
+
 # Logging setup
 logger = logging.getLogger(__name__)
 
@@ -53,6 +54,7 @@ def new_post():
 @app.route('/post/<int:id>', methods=['GET', 'POST'])
 @login_required
 def post(id):
+
     post = Post.query.get(int(id))
     form = PostForm(formdata=request.form, obj=post)
 
