@@ -142,3 +142,13 @@ The system integrates:
 - Automated deployment using GitHub Actions
 
 This showcases a complete **cloud-based web application architecture** using Azure services.
+## Custom Implementations
+
+The following features were implemented as part of completing the project:
+
+• Microsoft Authentication using the MSAL library
+• Login logging for successful and failed login attempts
+• Azure SQL Database integration for storing users and articles
+• Azure Blob Storage integration for article image uploads
+• Deployment to Azure App Service
+• Continuous Deployment using GitHub Actions
